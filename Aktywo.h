@@ -11,11 +11,14 @@ class Aktywo {
 private:
     std::string name;
     double value;
+    int quantity;
 public:
     std::string getName();
     void setString(std::string newName);
     double getValue();
     void setValue(double newValue);
+    int getQuantity(int quantity);
+    void setQuantity();
 };
 
 
