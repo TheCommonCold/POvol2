@@ -15,10 +15,13 @@ private:
 public:
     std::string getName();
     void setString(std::string newName);
+    void stan();
     double getValue();
     void setValue(double newValue);
-    int getQuantity(int quantity);
-    void setQuantity();
+    int getQuantity();
+    void setQuantity(int newQuantity);
+    Aktywo& operator+=(double ilosc);
+    Aktywo& operator-=(double ilosc);
 };
 
 
